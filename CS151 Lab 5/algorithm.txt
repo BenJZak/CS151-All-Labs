@@ -1,0 +1,23 @@
+# Programmers: Jarno, Ben 
+# Course:  CS151, Dr. Kenyon
+# Due Date: 10/17/23
+# Lab Assignment: 5
+# Problem Statement: Make a
+# Data In: username, password, operation
+# Data Out: balance
+# Credits: N/A
+
+1. Read current balance from file balance.txt and store it in variable "balance"
+2. Create a username and password, and then ask the user to input their username and password
+3. If the username and password match the credentials, allow them to interact with the atm, otherwise keep asking them for the user and password (use a while loop)
+4. Once the user is in the interaction stage of the atm, they will be able to enter the following inputs which will allow them do perform certain operations from within the atm:
+  D - Deposit
+  W - Withdraw
+  B - give Balance
+  E - Exit (loop until choice is E - sentinel value)
+5. After the user inputs an option,  the correct task related to that action will be performed. Then they get to choose an action again. Only when they choose to exit does it stop looping.
+6. We will also need to make sure that we perform the proper error checking:
+  choice is not D,W,B or E. Case should not matter for D/W/B/E choice.
+  a negative number is given for amount to deposit or withdraw
+  a wrong password is entered.
+  The balance becomes negative. Warn them that they will be charged 5 percent interest (do not actually bother calculating this, it's just an output).
