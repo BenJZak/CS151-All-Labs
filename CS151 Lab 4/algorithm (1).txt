@@ -1,0 +1,23 @@
+Import math module
+The first step of our program will be to gather the following inputs from the users:
+  Ask them which mobile phone provider package the user is using and assign to variable 'package'
+    Package Green
+      49.99/month, 2GB data provided, $15/GB for additional data, coupon for -$20 available
+    Package Blue
+      70/month, 4GB data provided; 10/GB for additional data
+    Package Purple
+      99.95/month, unlimited data
+Ask them how many GB of data they used
+  Assign to float variable 'data_usage'
+Assign float variable 'total_cost' to 0
+Assign boolean variable 'coupon' to false
+If package is green, ask user if they have a coupon and assign to boolean variable 'coupon'
+  If data_usage is greater than or equal to 2, subract 2 from data usage and assign to 'total_cost', use ceiling function to round up and reassign, and multiply by 15. Reassign.
+  Add 49.99 to 'total_cost'.
+  If total is 75 or more and coupon is true, subract 20 from total.
+Otherwise if package is blue,
+  If data usage is greater than 4, subract 4 from data usage and assign to 'total_cost' use ceiling fuction to round up and reassign, multiply by 10 and reassign.
+  Add 70 to total cost
+Otherwise if package is purple, set 'total_cost' to 99.95
+Otherwise tell the user that it was invalid and do not give them a bill amount or do any calculations
+Output total, round total_cost using print f
