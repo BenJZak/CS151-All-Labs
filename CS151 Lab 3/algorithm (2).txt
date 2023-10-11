@@ -1,0 +1,30 @@
+Because there are going to be some complex calculations, we are going to need to import the math library to use the square root function
+
+We will need a series of inputs:
+  The hill type that the skier is jumping from
+  The speed they are travelling at the end of the ramp
+Given these inputs, we will predict how far they will jump, and then output the number of points they earned
+
+Calculate the points if the hill is normal
+if the hill is normal
+  height is 46
+  calculate airtime with the equation sqrt((2*height)/9.8)
+  distance traveled is speed times airtime
+  the points earned is 60 plus (distance minus par) * points per meter (2 for normal hill)  
+
+Calculation for points if the hill is large
+if the hill is large
+  height is 70
+  calculate airtime with the equation sqrt((2*height)/9.8)
+  distance traveled is speed times airtime
+  the points earned is 60 plus (distance minus par) * points per meter (1.8 for large hill) 
+
+Depending on the points earned, output different statements to the user
+if points is 61 or greater 
+  output great job for doing better than par
+otherwise, if points is less than 10
+  output What happened?
+otherwise
+  output sorry you didn't go very far
+
+output the points
