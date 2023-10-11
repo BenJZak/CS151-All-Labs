@@ -1,0 +1,16 @@
+First we need to select a country. In this case, we will choose Pakistan. 
+We then need to find the birth, death, and immigrant rates in Pakistan.
+
+* There is a new birth every 12 seconds
+* There is a death every 16 seconds
+* Someone migrates out of the country every 200 seconds
+
+We will have to ask the users the following inputs:
+
+* The birthrate in terms of how many seconds between births
+* The deathrate in seconds
+* The rate of new immigrants in seconds
+* The current population
+* How many years into the future the user wants to know the population
+
+Then make sure to convert the answer to an integer value
