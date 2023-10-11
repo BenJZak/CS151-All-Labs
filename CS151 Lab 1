@@ -1,6 +1,0 @@
-miles = int(input("How many miles are you travelling?"))
-mpg = int(input("what is the MPG of your car?"))
-cpg = int(input("what is the cost of gas per gallon?"))
-
-total = (miles/mpg)*cpg
-print('You need', total, 'dollars for gas to travel.')
