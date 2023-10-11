@@ -1,0 +1,9 @@
+Write algorithm for Lab1 here. Remember to follow the rules of what makes a good algorithm from Notes #2.
+
+
+  |Test Description                 | in:miles  | in:MPG  | in:price  | out:cost|
+  |----                             |----       | ----    | ----      | ----    |
+  |Price is 1, we need 1 gallon     | 30        | 30      | 1         | 1       |
+  |Zero miles, price is 1           | 0         | 30     | 1          |  0      |
+  |Number of miles is greater than MPG | 60     | 30     |  1         |  2     |
+  |Number of miles is less than MPG | 15        | 60      | 2          | .5      |
