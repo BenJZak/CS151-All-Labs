@@ -1,0 +1,17 @@
+Algorithm
+
+1) Let user know they are using an ATM
+2) Ask user if they want to Deposit,Withdraw,Exit or find out thier balance
+  i) If user choose D, ask user how much they'd like to deposit
+  ii) Display their balance and then revert back to #2
+3) If user chooses W, ask how much they'd like to withdraw
+  i) Display balance after the withdrawal
+    i.i) If balance is < 0 then let user know they have a 5 percent interest rate
+  ii) Revert back to #2
+4) If user chooses B, display the users balance
+  i) Revert back to #2
+5) if user choose E
+  i)display thanks for banking
+6) If user does not input any of these letters
+  i) let user know it is an invalid option
+  ii) Revert back to #2
