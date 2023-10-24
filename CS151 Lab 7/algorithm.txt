@@ -1,0 +1,27 @@
+1. Function called floorType (no parameters)
+  a. Ask user what floor type they want (hardwood, carpet, tile) and set to variable 'type'
+  b. while type is not equal to "hardwood" and "carpet" and "tile", ask again
+  c. if type is equal to "hardwood" return 1.39
+  d. otherwise if type is euqal to "carpet" return 3.99
+  e. otherwise if type is equal to "tile" return 4.99
+
+2. Function area(takes paramater returned from floorTpe function, take parameter count)
+  a. Ask user for length
+  b. Ask user for width
+  c. while length is less than 0 or width is less than 0
+    i. print invalid
+    ii. Ask user for length
+    iii. Ask user for width
+  c. totCost is equal to cost times length times width
+  c. print "Room" (with respect to count) "will cost" => respective cost
+  c. return totCost
+  
+3. Main function 
+  a. Opening statements
+  b. Set rooms to 5 and set count to 0
+  b. While count is less than 5 
+    i. Call floorType and set it to type
+    ii. call area with arguement type set to cost
+    iii. totCost is equal to cost plus totCost
+
+  4. call main
