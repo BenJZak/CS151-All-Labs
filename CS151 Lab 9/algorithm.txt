@@ -1,0 +1,28 @@
+# Programmers: Ayana Thompson, Ben Zakielarz, Jarno Ottati
+# Course: CS151, Dr. Kenyon
+# Due Date: 11/14/2023
+# Lab Assignment: 9
+# Problem Statement: You are organizing a dinner party with assigned seats. Create a program to read in all of the attendees and then output the seat assignments.
+# Data In: list of people user wants to invite
+# Data Out: How many tables are needed, and who is sitting at each table
+# Credits: Based of an example in class notes
+# Input Files: kenyon.txt , nweke.txt , olsen.txt
+
+
+
+1. Create a function that will read the contents of a file based on the file 
+   the user would like to read data from.
+
+2. After the user input file name, read the file and input data from the file 
+   into a list.
+
+3. Create a function to determine the amount of tables, using nested for loops:
+
+    a. Five people per table
+    b. Display the table number, seat number, and the name of who is sitting          in that seat
+  
+4. Have the outter loop contain the table number.
+
+5. Have the inner for loop iterate thorugh the seat number and the name of the 
+   person sitting in the seat.
+
