@@ -1,0 +1,18 @@
+This program is being used to generate informaiton about movies from a provided file called: {movies.csv}.
+
+Define a function [get_file] that prompts the user to input the name of the file they want to use for the analysis (only valid choice is {movies.csv}).
+  [Include error checking that is activated in the event that the user fails to enter {movies.csv} as their choice. Program will continue to re-prompt them to enter a file name until they use the correct one.]
+
+Define a function [read] that uses the returned value from the [get_file] function as a parameter. This function will open the user's specified file, read the file and transcribe it into a list. Once completed, the list will be returned {movies}.
+
+Define a function [get_profit] that uses the list {movies} as a parameter. This function calculates the profit for each film by summing the domestic and international revenue then subtracting the vale of the budget. This profit value is then added to the end of the new file. 
+
+Define a function [write_profit] that uses {movies} and {profit_list} as parameters. This function writes a message in the file that displays the profit from the film.
+
+Define a function [get_big_movie] that uses {movies} and {profit_list} as parameters. Using the max function to determine the highest profit in the {profit_list}. Incorporates a for loop to search for the corresponding movie title that goes with the highest profit. Displays a message that notes this fact to the user. 
+
+Define a function [get_small_movie] that uses {movies} and {profit_list} as parameters. Using the min function to determine the lowest profit in the {profit_list}. Incorporates a for loop to search for the corresponding movie title that goes with the lowest profit. Displays a message that notes this fact to the user. 
+
+Define [main] function that calls all of the above functions to be used. Displays a message to the user that explains the purpose of the program and where to find information in the new file. 
+
+Call [main] function.
