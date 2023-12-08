@@ -1,0 +1,29 @@
+
+Open the file located at 'file_path' in read mode.
+Initialize an empty dictionary 'morse_code_dict' to store ASCII characters and their Morse code equivalents.
+For each line in the file:
+Split the line into ASCII character and Morse code using a double space as a delimiter.
+Add the ASCII character and its Morse code to 'morse_code_dict'.
+Close the file.read_morse_code_file(file_path)
+a.Input: would be a file path containing ASCII characters and their corresponding Morse code.
+b.Output: A dictionary (morse_code_dict) mapping ASCII characters to Morse code.
+
+For the next function we would read all lines from the file and store them in 'morse_code_strings'.
+Initialize an empty string 'english_text' to accumulate the translation into English text.
+For each Morse code string in 'morse_code_strings':
+a.Split the string into Morse code words.
+We would then trasnlate the morse code to english.
+b.Input: A file path containing Morse code strings and the dictionary mapping ASCII characters to Morse code.
+c.Output: The English text translated from Morse code.
+
+The next we would write to file(output file path, content)
+Input: The output file path and content to be written to the file.
+Output: The content written to the file 
+a.This will create a file.
+
+We would then run the entire program through main() to allow the program to run while as well getting the users input.
+
+Finally add a main() at the end, without it, it will not allow the code to run. 
+
+
+
